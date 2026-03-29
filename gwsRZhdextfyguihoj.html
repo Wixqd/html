@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<input type="text" id="bjh">
+<p id="ddd"></p>
+<script>
+    const bbs = document.getElementById('bjh')
+    const btt = document.getElementById('ddd')
+    bbs.addEventListener('input', function(){btt.textContent = bbs.value})
+</script>
